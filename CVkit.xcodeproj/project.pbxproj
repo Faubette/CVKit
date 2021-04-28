@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AEB1A3226391C88009EDCE6 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB1A3026391C88009EDCE6 /* FocusSquareSegment.swift */; };
+		0AEB1A3326391C88009EDCE6 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB1A3126391C88009EDCE6 /* FocusSquare.swift */; };
+		0AEB1A3826392037009EDCE6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEB1A3726392037009EDCE6 /* Utilities.swift */; };
+		0AEB1A3B263941B7009EDCE6 /* cv_laura.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0AEB1A3A263941B7009EDCE6 /* cv_laura.mp4 */; };
 		19A803EC2637DA4700FD2088 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A803EB2637DA4700FD2088 /* AppDelegate.swift */; };
 		19A803EE2637DA4700FD2088 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A803ED2637DA4700FD2088 /* art.scnassets */; };
 		19A803F02637DA4700FD2088 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A803EF2637DA4700FD2088 /* ViewController.swift */; };
 		19A803F32637DA4700FD2088 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A803F12637DA4700FD2088 /* Main.storyboard */; };
 		19A803F52637DA4D00FD2088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A803F42637DA4D00FD2088 /* Assets.xcassets */; };
 		19A803F82637DA4D00FD2088 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19A803F62637DA4D00FD2088 /* LaunchScreen.storyboard */; };
+		19A804022637DB1300FD2088 /* Matrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A804012637DB1300FD2088 /* Matrice.swift */; };
+		19A804062637DB7600FD2088 /* MatriceBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A804052637DB7600FD2088 /* MatriceBuilder.swift */; };
+		19A804092637DBCA00FD2088 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A804082637DBCA00FD2088 /* Square.swift */; };
+		19A8040D2637DC7D00FD2088 /* Diffuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A8040C2637DC7D00FD2088 /* Diffuser.swift */; };
+		19A804112637E00E00FD2088 /* SCNNode+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A804102637E00E00FD2088 /* SCNNode+Geometry.swift */; };
+		19A804152637E3F000FD2088 /* ViewController+SCNAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A804142637E3F000FD2088 /* ViewController+SCNAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AEB1A3026391C88009EDCE6 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		0AEB1A3126391C88009EDCE6 /* FocusSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		0AEB1A3726392037009EDCE6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		0AEB1A3A263941B7009EDCE6 /* cv_laura.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cv_laura.mp4; sourceTree = "<group>"; };
 		19A803E82637DA4700FD2088 /* CVkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A803EB2637DA4700FD2088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19A803ED2637DA4700FD2088 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +38,12 @@
 		19A803F42637DA4D00FD2088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19A803F72637DA4D00FD2088 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19A803F92637DA4D00FD2088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A804012637DB1300FD2088 /* Matrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrice.swift; sourceTree = "<group>"; };
+		19A804052637DB7600FD2088 /* MatriceBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatriceBuilder.swift; sourceTree = "<group>"; };
+		19A804082637DBCA00FD2088 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		19A8040C2637DC7D00FD2088 /* Diffuser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffuser.swift; sourceTree = "<group>"; };
+		19A804102637E00E00FD2088 /* SCNNode+Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCNNode+Geometry.swift"; sourceTree = "<group>"; };
+		19A804142637E3F000FD2088 /* ViewController+SCNAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+SCNAction.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AEB1A2F26391C7E009EDCE6 /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB1A3126391C88009EDCE6 /* FocusSquare.swift */,
+				0AEB1A3026391C88009EDCE6 /* FocusSquareSegment.swift */,
+			);
+			path = "Focus Square";
+			sourceTree = "<group>";
+		};
 		19A803DF2637DA4700FD2088 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +85,40 @@
 		19A803EA2637DA4700FD2088 /* CVkit */ = {
 			isa = PBXGroup;
 			children = (
-				19A803EB2637DA4700FD2088 /* AppDelegate.swift */,
-				19A803ED2637DA4700FD2088 /* art.scnassets */,
-				19A803EF2637DA4700FD2088 /* ViewController.swift */,
-				19A803F12637DA4700FD2088 /* Main.storyboard */,
+				0AEB1A3A263941B7009EDCE6 /* cv_laura.mp4 */,
 				19A803F42637DA4D00FD2088 /* Assets.xcassets */,
-				19A803F62637DA4D00FD2088 /* LaunchScreen.storyboard */,
+				19A803ED2637DA4700FD2088 /* art.scnassets */,
+				19A8040F2637DFBB00FD2088 /* Utilities */,
+				19A804002637DAE100FD2088 /* Matrice */,
+				19A803EB2637DA4700FD2088 /* AppDelegate.swift */,
+				19A8040C2637DC7D00FD2088 /* Diffuser.swift */,
 				19A803F92637DA4D00FD2088 /* Info.plist */,
+				19A803F62637DA4D00FD2088 /* LaunchScreen.storyboard */,
+				19A803F12637DA4700FD2088 /* Main.storyboard */,
+				19A803EF2637DA4700FD2088 /* ViewController.swift */,
+				19A804142637E3F000FD2088 /* ViewController+SCNAction.swift */,
 			);
 			path = CVkit;
+			sourceTree = "<group>";
+		};
+		19A804002637DAE100FD2088 /* Matrice */ = {
+			isa = PBXGroup;
+			children = (
+				19A804012637DB1300FD2088 /* Matrice.swift */,
+				19A804052637DB7600FD2088 /* MatriceBuilder.swift */,
+				19A804082637DBCA00FD2088 /* Square.swift */,
+			);
+			path = Matrice;
+			sourceTree = "<group>";
+		};
+		19A8040F2637DFBB00FD2088 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0AEB1A2F26391C7E009EDCE6 /* Focus Square */,
+				19A804102637E00E00FD2088 /* SCNNode+Geometry.swift */,
+				0AEB1A3726392037009EDCE6 /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +181,7 @@
 				19A803EE2637DA4700FD2088 /* art.scnassets in Resources */,
 				19A803F82637DA4D00FD2088 /* LaunchScreen.storyboard in Resources */,
 				19A803F52637DA4D00FD2088 /* Assets.xcassets in Resources */,
+				0AEB1A3B263941B7009EDCE6 /* cv_laura.mp4 in Resources */,
 				19A803F32637DA4700FD2088 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A804092637DBCA00FD2088 /* Square.swift in Sources */,
 				19A803F02637DA4700FD2088 /* ViewController.swift in Sources */,
+				0AEB1A3826392037009EDCE6 /* Utilities.swift in Sources */,
+				19A804022637DB1300FD2088 /* Matrice.swift in Sources */,
 				19A803EC2637DA4700FD2088 /* AppDelegate.swift in Sources */,
+				0AEB1A3226391C88009EDCE6 /* FocusSquareSegment.swift in Sources */,
+				19A804062637DB7600FD2088 /* MatriceBuilder.swift in Sources */,
+				19A804152637E3F000FD2088 /* ViewController+SCNAction.swift in Sources */,
+				19A8040D2637DC7D00FD2088 /* Diffuser.swift in Sources */,
+				19A804112637E00E00FD2088 /* SCNNode+Geometry.swift in Sources */,
+				0AEB1A3326391C88009EDCE6 /* FocusSquare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
